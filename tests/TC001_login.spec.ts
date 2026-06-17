@@ -5,6 +5,7 @@ import { Loginpage } from "../pages/LoginPage";
 import { Logoutpage } from "../pages/Logoutpage";
 import { verifypage } from "../pages/verification";
 
+
 test("login functionality", async ({page})=>{
     BasePage.page= page;
     await BasePage.Openapplicationa("https://ctcorphyd.com/SureshIT/login.php");
