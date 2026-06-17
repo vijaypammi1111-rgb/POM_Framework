@@ -4,7 +4,7 @@ export class deleteemployee extends BasePage{
 
     // Locators need to initialize
     private static frame1 = "//iframe[@id='rightMenu']";
-    private static check_box= "//input[@value='6550']";
+    private static check_box= "//input[@value='6551']";
     private static delete_button= "//input[@value='Delete']";
 
     static async deleteemp(){
@@ -14,4 +14,5 @@ export class deleteemployee extends BasePage{
         console.log("Employee deleted successfully");
     }
 
+    
 }
