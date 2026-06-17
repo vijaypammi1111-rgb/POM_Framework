@@ -11,7 +11,7 @@ test("addemployee", async({page})=>{
     await BasePage.Openapplicationa("https://ctcorphyd.com/SureshIT/login.php");
     await commonpages.common_wait_method();
     await Loginpage.login("sureshit","sureshit");
-    await Addemployee.Addemp("vijay", "kumar");
+    await Addemployee.Addemp("vijay","kumar");
     await verifypage.verifytitle("SureshIT");
     await Logoutpage.logout();
     await BasePage.closeapplication();

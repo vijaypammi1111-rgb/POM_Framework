@@ -9,7 +9,7 @@ export class Loginpage extends BasePage{
 
    // Methods need to create
 
-   static async login(username: string , password: string){
+   static async login(username:string , password:string){
 
     await this.page.locator(this.textbox_username).fill(username);
     await this.page.locator(this.textbox_password).fill(password);
