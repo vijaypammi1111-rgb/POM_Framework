@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test test_suite_POM.spec.ts
+      run: npx playwright test TC001_login.spec.ts
     - name: Generate Allure Report
       run: npx allure generate allure-results --clean -o allure-report
     - name: Upload Allure Report
