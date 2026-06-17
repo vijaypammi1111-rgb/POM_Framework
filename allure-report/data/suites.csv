@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9176","deleteemp","chromium","2026-06-17","passed","2026-06-17","test_suite_POM","test_suite_POM.spec.ts","",""
+"","4100","login functionality","chromium","2026-06-17","passed","2026-06-17","","TC001_login.spec.ts","",""
+"","8935","addemployee","chromium","2026-06-17","passed","2026-06-17","test_suite_POM","test_suite_POM.spec.ts","",""
+"","4410","login functionality","chromium","2026-06-17","passed","2026-06-17","test_suite_POM","test_suite_POM.spec.ts","",""
