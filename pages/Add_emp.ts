@@ -12,7 +12,7 @@ export class Addemployee extends BasePage{
 
     // Methods or Actions to perform
 
-    static async Addemp(firstname: string , lastname:string){
+    static async Addemp(firstname:string, lastname:string){
         const iframe= this.page.frameLocator(this.frame);
         await iframe.locator(this.add_button).click();
         await iframe.locator(this.last_name).fill(lastname);
